@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellblade: Senua's Sacrifice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=".css">
+</head>
+<body>
+    <header>
+        <h1>La batalla entre la mente y la realidad</h1>
+        <p>Bienvenido al mundo de <strong>Hellblade: Senua's Sacrifice</strong>, un juego donde la mente y la realidad se entrelazan en una historia épica.</p>
+
+        <h2>Índice</h2>
+        <nav>
+            <ul>
+                <li><a href="https://vandal.elespanol.com/noticia/1350695245/la-muerte-permanente-de-hellblade-senuas-sacrifice-podria-ser-un-bulo/">Permadeath</a></li>
+                <li><a href="https://vandal.elespanol.com/guias/guia-hellblade#consejos-para-el-combate">Consejos para el combate</a></li>
+                <li><a href="https://vandal.elespanol.com/guias/guia-hellblade/runas-y-cuervos">Runas y Cuervos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="historia">
+        <h2>Historia</h2>
+        <p>Hellblade: Senua's Sacrifice es un juego de acción y aventura desarrollado por Ninja Theory, lanzado en 2017. La historia sigue a Senua, una joven guerrera celta que emprende un peligroso viaje a través del inframundo nórdico, buscando rescatar el alma de su amado Dillion, quien ha muerto. Lo que hace único a este juego es su enfoque en los trastornos mentales, especialmente la psicosis, que se representa de manera muy realista y respetuosa.</p>
+        
+        <img src="images/hellblade.jpg" alt="Imagen de Senua en Hellblade: Senua's Sacrifice" style="max-width: 50%; display: block; margin: 0 auto;">
+        
+        <h2>¡Únete a la Comunidad del Juego!</h2>
+        
+        <form action="/submit-form" method="post">
+            <label for="username">Nombre de Usuario <abbr title="required" aria-label="required">*</abbr></label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="email">Correo Electrónico <abbr title="required" aria-label="required">*</abbr></label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="platform">Plataforma <abbr title="required" aria-label="required">*</abbr></label>
+            <select id="platform" name="platform" required>
+                <option value="PC">PC</option>
+                <option value="PlayStation">PlayStation</option>
+                <option value="Xbox">Xbox</option>
+                <option value="Nintendo Switch">Nintendo Switch</option>
+            </select><br><br>
+
+            <label for="game-experience">¿Cómo calificas tu experiencia en el juego?</label><br>
+            <textarea id="game-experience" name="game-experience" rows="4" required></textarea><br><br>
+
+            <label for="updates">¿Te gustaría recibir noticias y actualizaciones sobre el juego?</label>
+            <input type="checkbox" id="updates" name="updates"><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
